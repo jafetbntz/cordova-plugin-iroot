@@ -66,4 +66,5 @@ interface IRootPlugin {
     isRootedWithBusyBoxWithEmulator(onSuccess: (boolean) => void, onError: (any) => void): void;
 }
 
-declare var IRoot: IRootPlugin;
+export declare var IRoot: IRootPlugin;
+
